@@ -517,9 +517,6 @@ body .container .provide .provide-row .col .provide-icon {
   border-radius: 50%;
   padding-top: 30px;
   display: inline-block;
-}
-
-body .container .provide .provide-row .col .provide-icon i {
   font-size: 60px;
   color: #fff;
 }
