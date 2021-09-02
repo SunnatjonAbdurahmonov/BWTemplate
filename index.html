@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="icon" href="images/website-logo-white.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>B&W Template</title>
@@ -195,10 +195,10 @@
         <div class="contactUsForm">
           <form>
             <div class="form-group">
-              <input type="text" id="fullName"  placeholder="Full Name" />
+              <input type="text" id="fullName"  placeholder="Full Name" autocomplete="off" />
             </div>
             <div class="form-group">
-              <input type="email" id="email" name="email" placeholder="Email" />
+              <input type="email" id="email" name="email" placeholder="Email" autocomplete="off" />
             </div>
             <div class="form-group">
               <input
@@ -206,6 +206,7 @@
                 id="number"
                 name="number"
                 placeholder="Number"
+                autocomplete="off"
               />
             </div>
             <div class="form-group">
@@ -214,6 +215,7 @@
                 placeholder="Write your Message here..."
                 id="yourMessage"
                 rows="10"
+                autocomplete="off"
               ></textarea>
             </div>
             <button type="submit" class="submitMessage">Submit</button>
